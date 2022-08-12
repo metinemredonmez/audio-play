@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		148FE02128A6ED4300A27E4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148FE02028A6ED4300A27E4E /* AppDelegate.swift */; };
+		148FE02328A6ED4300A27E4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148FE02228A6ED4300A27E4E /* SceneDelegate.swift */; };
+		148FE02528A6ED4300A27E4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148FE02428A6ED4300A27E4E /* ViewController.swift */; };
+		148FE02828A6ED4300A27E4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 148FE02628A6ED4300A27E4E /* Main.storyboard */; };
+		148FE02B28A6ED4300A27E4E /* SignleMusicBackground.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 148FE02928A6ED4300A27E4E /* SignleMusicBackground.xcdatamodeld */; };
+		148FE02D28A6ED4800A27E4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148FE02C28A6ED4800A27E4E /* Assets.xcassets */; };
+		148FE03028A6ED4800A27E4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 148FE02E28A6ED4800A27E4E /* LaunchScreen.storyboard */; };
+		148FE03B28A6ED4800A27E4E /* SignleMusicBackgroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148FE03A28A6ED4800A27E4E /* SignleMusicBackgroundTests.swift */; };
+		148FE04528A6ED4800A27E4E /* SignleMusicBackgroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148FE04428A6ED4800A27E4E /* SignleMusicBackgroundUITests.swift */; };
+		148FE04728A6ED4800A27E4E /* SignleMusicBackgroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148FE04628A6ED4800A27E4E /* SignleMusicBackgroundUITestsLaunchTests.swift */; };
+		148FE05428A6EE4E00A27E4E /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 148FE05328A6EE4E00A27E4E /* music.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		148FE03728A6ED4800A27E4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 148FE01528A6ED4300A27E4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 148FE01C28A6ED4300A27E4E;
+			remoteInfo = SignleMusicBackground;
+		};
+		148FE04128A6ED4800A27E4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 148FE01528A6ED4300A27E4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 148FE01C28A6ED4300A27E4E;
+			remoteInfo = SignleMusicBackground;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		148FE01D28A6ED4300A27E4E /* SignleMusicBackground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignleMusicBackground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		148FE02028A6ED4300A27E4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		148FE02228A6ED4300A27E4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		148FE02428A6ED4300A27E4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		148FE02728A6ED4300A27E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		148FE02A28A6ED4300A27E4E /* SignleMusicBackground.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SignleMusicBackground.xcdatamodel; sourceTree = "<group>"; };
+		148FE02C28A6ED4800A27E4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		148FE02F28A6ED4800A27E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		148FE03128A6ED4800A27E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		148FE03628A6ED4800A27E4E /* SignleMusicBackgroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignleMusicBackgroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		148FE03A28A6ED4800A27E4E /* SignleMusicBackgroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignleMusicBackgroundTests.swift; sourceTree = "<group>"; };
+		148FE04028A6ED4800A27E4E /* SignleMusicBackgroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignleMusicBackgroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		148FE04428A6ED4800A27E4E /* SignleMusicBackgroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignleMusicBackgroundUITests.swift; sourceTree = "<group>"; };
+		148FE04628A6ED4800A27E4E /* SignleMusicBackgroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignleMusicBackgroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		148FE05328A6EE4E00A27E4E /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		148FE01A28A6ED4300A27E4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148FE03328A6ED4800A27E4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148FE03D28A6ED4800A27E4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		148FE01428A6ED4300A27E4E = {
+			isa = PBXGroup;
+			children = (
+				148FE01F28A6ED4300A27E4E /* SignleMusicBackground */,
+				148FE03928A6ED4800A27E4E /* SignleMusicBackgroundTests */,
+				148FE04328A6ED4800A27E4E /* SignleMusicBackgroundUITests */,
+				148FE01E28A6ED4300A27E4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		148FE01E28A6ED4300A27E4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				148FE01D28A6ED4300A27E4E /* SignleMusicBackground.app */,
+				148FE03628A6ED4800A27E4E /* SignleMusicBackgroundTests.xctest */,
+				148FE04028A6ED4800A27E4E /* SignleMusicBackgroundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		148FE01F28A6ED4300A27E4E /* SignleMusicBackground */ = {
+			isa = PBXGroup;
+			children = (
+				148FE02028A6ED4300A27E4E /* AppDelegate.swift */,
+				148FE05328A6EE4E00A27E4E /* music.mp3 */,
+				148FE02228A6ED4300A27E4E /* SceneDelegate.swift */,
+				148FE02428A6ED4300A27E4E /* ViewController.swift */,
+				148FE02628A6ED4300A27E4E /* Main.storyboard */,
+				148FE02C28A6ED4800A27E4E /* Assets.xcassets */,
+				148FE02E28A6ED4800A27E4E /* LaunchScreen.storyboard */,
+				148FE03128A6ED4800A27E4E /* Info.plist */,
+				148FE02928A6ED4300A27E4E /* SignleMusicBackground.xcdatamodeld */,
+			);
+			path = SignleMusicBackground;
+			sourceTree = "<group>";
+		};
+		148FE03928A6ED4800A27E4E /* SignleMusicBackgroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				148FE03A28A6ED4800A27E4E /* SignleMusicBackgroundTests.swift */,
+			);
+			path = SignleMusicBackgroundTests;
+			sourceTree = "<group>";
+		};
+		148FE04328A6ED4800A27E4E /* SignleMusicBackgroundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				148FE04428A6ED4800A27E4E /* SignleMusicBackgroundUITests.swift */,
+				148FE04628A6ED4800A27E4E /* SignleMusicBackgroundUITestsLaunchTests.swift */,
+			);
+			path = SignleMusicBackgroundUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		148FE01C28A6ED4300A27E4E /* SignleMusicBackground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 148FE04A28A6ED4800A27E4E /* Build configuration list for PBXNativeTarget "SignleMusicBackground" */;
+			buildPhases = (
+				148FE01928A6ED4300A27E4E /* Sources */,
+				148FE01A28A6ED4300A27E4E /* Frameworks */,
+				148FE01B28A6ED4300A27E4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SignleMusicBackground;
+			productName = SignleMusicBackground;
+			productReference = 148FE01D28A6ED4300A27E4E /* SignleMusicBackground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		148FE03528A6ED4800A27E4E /* SignleMusicBackgroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 148FE04D28A6ED4800A27E4E /* Build configuration list for PBXNativeTarget "SignleMusicBackgroundTests" */;
+			buildPhases = (
+				148FE03228A6ED4800A27E4E /* Sources */,
+				148FE03328A6ED4800A27E4E /* Frameworks */,
+				148FE03428A6ED4800A27E4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				148FE03828A6ED4800A27E4E /* PBXTargetDependency */,
+			);
+			name = SignleMusicBackgroundTests;
+			productName = SignleMusicBackgroundTests;
+			productReference = 148FE03628A6ED4800A27E4E /* SignleMusicBackgroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		148FE03F28A6ED4800A27E4E /* SignleMusicBackgroundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 148FE05028A6ED4800A27E4E /* Build configuration list for PBXNativeTarget "SignleMusicBackgroundUITests" */;
+			buildPhases = (
+				148FE03C28A6ED4800A27E4E /* Sources */,
+				148FE03D28A6ED4800A27E4E /* Frameworks */,
+				148FE03E28A6ED4800A27E4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				148FE04228A6ED4800A27E4E /* PBXTargetDependency */,
+			);
+			name = SignleMusicBackgroundUITests;
+			productName = SignleMusicBackgroundUITests;
+			productReference = 148FE04028A6ED4800A27E4E /* SignleMusicBackgroundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		148FE01528A6ED4300A27E4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					148FE01C28A6ED4300A27E4E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					148FE03528A6ED4800A27E4E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 148FE01C28A6ED4300A27E4E;
+					};
+					148FE03F28A6ED4800A27E4E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 148FE01C28A6ED4300A27E4E;
+					};
+				};
+			};
+			buildConfigurationList = 148FE01828A6ED4300A27E4E /* Build configuration list for PBXProject "SignleMusicBackground" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 148FE01428A6ED4300A27E4E;
+			productRefGroup = 148FE01E28A6ED4300A27E4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				148FE01C28A6ED4300A27E4E /* SignleMusicBackground */,
+				148FE03528A6ED4800A27E4E /* SignleMusicBackgroundTests */,
+				148FE03F28A6ED4800A27E4E /* SignleMusicBackgroundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		148FE01B28A6ED4300A27E4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148FE05428A6EE4E00A27E4E /* music.mp3 in Resources */,
+				148FE03028A6ED4800A27E4E /* LaunchScreen.storyboard in Resources */,
+				148FE02D28A6ED4800A27E4E /* Assets.xcassets in Resources */,
+				148FE02828A6ED4300A27E4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148FE03428A6ED4800A27E4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148FE03E28A6ED4800A27E4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		148FE01928A6ED4300A27E4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148FE02528A6ED4300A27E4E /* ViewController.swift in Sources */,
+				148FE02B28A6ED4300A27E4E /* SignleMusicBackground.xcdatamodeld in Sources */,
+				148FE02128A6ED4300A27E4E /* AppDelegate.swift in Sources */,
+				148FE02328A6ED4300A27E4E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148FE03228A6ED4800A27E4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148FE03B28A6ED4800A27E4E /* SignleMusicBackgroundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148FE03C28A6ED4800A27E4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148FE04728A6ED4800A27E4E /* SignleMusicBackgroundUITestsLaunchTests.swift in Sources */,
+				148FE04528A6ED4800A27E4E /* SignleMusicBackgroundUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		148FE03828A6ED4800A27E4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 148FE01C28A6ED4300A27E4E /* SignleMusicBackground */;
+			targetProxy = 148FE03728A6ED4800A27E4E /* PBXContainerItemProxy */;
+		};
+		148FE04228A6ED4800A27E4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 148FE01C28A6ED4300A27E4E /* SignleMusicBackground */;
+			targetProxy = 148FE04128A6ED4800A27E4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		148FE02628A6ED4300A27E4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				148FE02728A6ED4300A27E4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		148FE02E28A6ED4800A27E4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				148FE02F28A6ED4800A27E4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		148FE04828A6ED4800A27E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		148FE04928A6ED4800A27E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		148FE04B28A6ED4800A27E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6DV7YZY2XY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SignleMusicBackground/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metinemre.SignleMusicBackground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		148FE04C28A6ED4800A27E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6DV7YZY2XY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SignleMusicBackground/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metinemre.SignleMusicBackground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		148FE04E28A6ED4800A27E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6DV7YZY2XY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metinemre.SignleMusicBackgroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SignleMusicBackground.app/SignleMusicBackground";
+			};
+			name = Debug;
+		};
+		148FE04F28A6ED4800A27E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6DV7YZY2XY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metinemre.SignleMusicBackgroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SignleMusicBackground.app/SignleMusicBackground";
+			};
+			name = Release;
+		};
+		148FE05128A6ED4800A27E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6DV7YZY2XY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metinemre.SignleMusicBackgroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SignleMusicBackground;
+			};
+			name = Debug;
+		};
+		148FE05228A6ED4800A27E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6DV7YZY2XY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metinemre.SignleMusicBackgroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SignleMusicBackground;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		148FE01828A6ED4300A27E4E /* Build configuration list for PBXProject "SignleMusicBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148FE04828A6ED4800A27E4E /* Debug */,
+				148FE04928A6ED4800A27E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		148FE04A28A6ED4800A27E4E /* Build configuration list for PBXNativeTarget "SignleMusicBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148FE04B28A6ED4800A27E4E /* Debug */,
+				148FE04C28A6ED4800A27E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		148FE04D28A6ED4800A27E4E /* Build configuration list for PBXNativeTarget "SignleMusicBackgroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148FE04E28A6ED4800A27E4E /* Debug */,
+				148FE04F28A6ED4800A27E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		148FE05028A6ED4800A27E4E /* Build configuration list for PBXNativeTarget "SignleMusicBackgroundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148FE05128A6ED4800A27E4E /* Debug */,
+				148FE05228A6ED4800A27E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		148FE02928A6ED4300A27E4E /* SignleMusicBackground.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				148FE02A28A6ED4300A27E4E /* SignleMusicBackground.xcdatamodel */,
+			);
+			currentVersion = 148FE02A28A6ED4300A27E4E /* SignleMusicBackground.xcdatamodel */;
+			path = SignleMusicBackground.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 148FE01528A6ED4300A27E4E /* Project object */;
+}
